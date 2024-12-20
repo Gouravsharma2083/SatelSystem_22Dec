@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Simple Quiz</h1>
+        <p class="question">What is the capital of France?</p>
+        <div class="options">
+            <button class="option">Berlin</button>
+            <button class="option">Madrid</button>
+            <button class="option">Paris</button>
+            <button class="option">Lisbon</button>
+        </div>
+        <button class="next-button">Next Question</button>
+    </div>
+    <div id="result" style="display: none;">
+        <h2>Result</h2>
+        <p>Your score: <span id="score"></span> out of 3</p>
+        <button id="restartButton" class="next-button">Restart Quiz</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
